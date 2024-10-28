@@ -4,35 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lakalada Consulting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>La kalada Consulting</title>
     <link rel="stylesheet" href="default.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <div class="neon-logod">
-        <img src="logo.png" alt="Lakalada Consulting Logo" style="width: 100px; height: 100px;">
-    </div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">The Team</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-        </ul>
+    <nav class="navbar sticky">
+        <div class="flex h-40">
+            <div class="p-6 ">
+                <img src="logo.jpg" alt="La kalada Consulting Logo" style="width: 100px; height: 100px;">
+            </div>
+            <div class="my-auto">
+                <ul class="">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">The Team</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- Home Section -->
-    <section id="home">
-        <div class="flex-container">
-            <div class="image-container">
-                <img src="home.jpg" alt="home section" />
+    <section id="home" class="my-12">
+        <div class="flex">
+            <div class="mx-10">
+                <img src="home.jpg" alt="home section" class="w-30 h-30" />
             </div>
-            <div class="content-container">
-                <h2>Welcome to Lakalada Consulting</h2>
+            <div class="mx-10 max-w-7xl">
+                <h2>Welcome to La kalada Consulting</h2>
                 <h3>"Consulting Excellence You Can Trust"</h3>
-                <p>At Lakalada Consulting, we believe in delivering consulting services that are not only strategic but
+                <p class="pt-2">At La kalada Consulting, we believe in delivering consulting services that are not only strategic but
                     also backed by rigorously tested protocols designed to drive measurable results. Our commitment to
                     excellence ensures that each project is tailored to meet our clients' unique needs, providing
                     insights and solutions that are both reliable and impactful. Discover how our expertise can make a
@@ -42,40 +47,40 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about">
-        <div class="flex-container">
-            <div class="image-container">
-                <img src="about.jpg" alt="home section" />
+    <section id="about" class="my-12">
+        <div class="flex">
+            <div class="mx-10">
+                <img src="about.jpg" alt="about section" class="w-30 h-30" />
             </div>
-            <div class="content-container">
+            <div class="mx-10 max-w-7xl">
                 <h2>About Us</h2>
                 <h3>Founded on Quality, Driven by Results</h3>
-                <p>Since 2020, Lakalada Consulting has been dedicated to delivering top-tier consulting solutions that
+                <p class="pt-2">Since 2020, La kalada Consulting has been dedicated to delivering top-tier consulting solutions that
                     prioritize best practices and client satisfaction. Our team’s expertise and industry knowledge
                     ensure we
                     stay ahead of market trends, and our focus on results and quality make us a trusted partner for
                     businesses
                     of all sizes. We are proud to build long-lasting relationships through innovative approaches that
                     truly
-                    resonate with our clients' goals. </p>
+                    resonate with our clients' goals.</p>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services">
-        <div class="flex-container">
-            <div class="image-container">
-                <img src="services.jpg" alt="home section" />
+    <section id="services" class="my-12">
+        <div class="flex">
+            <div class="mx-10">
+                <img src="services.jpg" alt="services section" class="w-30 h-30"/>
             </div>
-            <div class="content-container">
+            <div class="mx-10 max-w-7xl">
                 <h2>Our Services</h2>
                 <h3>What We Offer</h3>
-                <p>
-                    At Lakalada Consulting, we specialize in a range of communication consulting services to help
+                <p class="pt-2">
+                    At La kalada Consulting, we specialize in a range of communication consulting services to help
                     elevate your
                     brand’s presence and effectiveness in today’s competitive landscape. Our offerings include:
-                <ul>
+                <ul class="list-disc">
                     <li>
                         <h4> Communication Planning</h4>
                         Developing tailored communication plans that align with your business objectives and reach the
@@ -118,36 +123,39 @@
 
     <!-- The Team Section -->
     <section id="team">
-        <div class="flex-container">
-            <div class="image-container">
+        <div class="flex">
+            <div class="mx-10">
                 <img src="team.jpg" alt="home section" />
             </div>
-            <div class="content-container">
+            <div class="mx-10 max-w-7xl">
                 <h2>The Team</h2>
                 <h3>Meet Our Team of Experts</h3>
-                <div class="team-container">
+                <div class="team-container gap-6">
                     <div class="team-card">
                         <img src="user.png" alt="Team Member 1">
-                        <h3>John Doe</h3>
+                        <h3 class="py-4">Pannarai Longpoonga</h3>
                         <p><i>CEO</i></p>
-                        <p class="team-text">As our founder and CEO, John brings a wealth of experience in business strategy and
-                            leadership. He
-                            guides Lakalada Consulting with a focus on innovation, client success, and sustainable
+                        <p class="team-text">As our founder and CEO, Pannarai brings a wealth of experience in business
+                            strategy and
+                            leadership. She
+                            guides La kalada Consulting with a focus on innovation, client success, and sustainable
                             growth.</p>
                     </div>
                     <div class="team-card">
                         <img src="user.png" alt="Team Member 2">
-                        <h3>Jane Smith</h3>
-                        <p><i>Marketing Consultant</i></p>
-                        <p class="team-text">Jane is an expert in digital and traditional marketing channels, ensuring our clients’
+                        <h3 class="py-4">Vincenzo Marra</h3>
+                        <p><i>Marketing Condultant</i></p>
+                        <p class="team-text">Vincenzo is an expert in digital and traditional marketing channels, ensuring
+                            our clients’
                             messages reach
                             their intended audience with precision and impact.</p>
                     </div>
                     <div class="team-card">
                         <img src="user.png" alt="Team Member 3">
-                        <h3>Robert Brown</h3>
-                        <p><i>Communication Strategies Consultant</i></p>
-                        <p class="team-text">With a deep understanding of communication dynamics, Robert specializes in crafting
+                        <h3 class="py-4">Samnuan Khongaiad</h3>
+                        <p><i>Communication Strategy</i></p>
+                        <p class="team-text">With a deep understanding of communication dynamics, Samnuan specializes in
+                            crafting
                             strategies that
                             enhance engagement and reinforce brand loyalty.</p>
                     </div>
@@ -158,13 +166,13 @@
 
     <!-- Contacts Section -->
     <section id="contacts">
-        <div class="flex-container">
-            <div class="image-container">
+        <div class="flex">
+            <div class="mx-10">
                 <img src="contacts.jpg" alt="home section" />
             </div>
-            <div class="content-container">
+            <div class="mx-10 max-w-7xl">
                 <h2>Contact Us</h2>
-                <form class="contact-form">
+                <form class="contact-form grid grod-cols">
                     <label for="from">From</label>
                     <input type="text" id="from" name="from" required>
 
@@ -174,7 +182,7 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" required></textarea>
 
-                    <button type="submit">Send</button>
+                    <button type="submit" id="send">Send</button>
                 </form>
             </div>
         </div>
@@ -182,8 +190,8 @@
 
     <!-- Footer -->
     <footer>
-        <p>Lakalada Consulting &copy; 2024</p>
-        <p>Email: info@lakalada.com | Phone: +123 456 7890</p>
+        <p>La kalada Consulting &copy; 2024</p>
+        <p>Email: <a href="mailto:lakaladath@gmail.com">lakaladath@gmail.com</a> | Phone: +66 82-956-4326</p>
     </footer>
 
     <!-- Scroll to Top Button -->
@@ -192,6 +200,11 @@
     <script>
         // Scroll to top button
         const scrollTopBtn = document.getElementById("scrollTopBtn");
+        const sendBtn = document.getElementById("send");
+
+        sendBtn.addEventListener("click", function () {
+            alert("Something went wrong, try again later!");
+        });
 
         window.onscroll = function () {
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
